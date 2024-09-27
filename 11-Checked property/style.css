@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+#mySubmit{
+    font-size: 1rem;
+}
