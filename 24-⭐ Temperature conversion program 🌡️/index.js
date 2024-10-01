@@ -13,9 +13,9 @@ function convertToCelsius(number) {
 
 btnSubmit.addEventListener("click", function () {
   if (toFahrenheit.checked) {
-    resultConversion.textContent = convertToFahrenheit(textBox.value) + "ºF";
+    resultConversion.textContent = convertToFahrenheit(Number(textBox.value)) + "ºF";
   } else if (toCelsius.checked) {
-    resultConversion.textContent = convertToCelsius(textBox.value)+ "ºC";
+    resultConversion.textContent = convertToCelsius(Number(textBox.value))+ "ºC";
   } else {
     resultConversion.textContent = "Select a Unit";
   }

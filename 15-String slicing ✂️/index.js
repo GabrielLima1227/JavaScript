@@ -1,5 +1,6 @@
 //String Slicing = .slice() é usado para extrair uma parte de uma string, retornando uma nova string que contém os caracteres selecionados ✂️
 //String.slice(Start, End);
+//O metodo .slice não altera a string original
 
 //Ex: 01 Não dinâmico 
 const fullName = "Gabriel de Lima Sousa";
